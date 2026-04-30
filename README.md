@@ -27,16 +27,16 @@ Testing:
 <img width="1882" height="979" alt="image" src="https://github.com/user-attachments/assets/25dbc2ec-776c-4551-a116-c2edbae4fbf5" />
 Running an accessability check on the site yilded no negative results resuslts. Here are an additional 10  tests i ran to make sure all the features work properly
 
-1 Navigation test (do all menu buttons lead to the pages they are supposed to )- yes, initially some pages did not route, fixed
-2 Link testing- All links direct to sites they are supposed to, no specific accounts
-3 Text size check- Works
-4 Colorblind modes- both work
-5 Darkmode testing- works pefect, can be used in conjunction with other dark and light mode
-6 line spacing- looks dodgy but ultimately works
-7 Repairs accepts credemtials- Repairs does accept credentials
-8 Calendar and time notch on page 3 work - they do work, after some struggle , bugs ironed out
-9 No Lorem Ipsum- none
-10 Checked spelling - everything spelt correc
+1. Navigation test (do all menu buttons lead to the pages they are supposed to )- yes, initially some pages did not route, fixed
+2. Link testing- All links direct to sites they are supposed to, no specific accounts
+3. Text size check- Works
+4. Colorblind modes- both work
+5. Darkmode testing- works pefect, can be used in conjunction with other dark and light mode
+6. line spacing- looks dodgy but ultimately works
+7. Repairs accepts credemtials- Repairs does accept credentials
+8. Calendar and time notch on page 3 work - they do work, after some struggle , bugs ironed out
+9. No Lorem Ipsum- none
+10. Checked spelling - everything spelt correc
 
 
 
