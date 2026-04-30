@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+
+    <div class="logo">RR</div>
+
+    <h1>Hardware Upgrades</h1>
+
+    <button onclick="toggleSettings()" class="settings-btn">Settings</button>
+
+</header>
+
+<!-- SETTINGS PANEL -->
+<aside id="settingsPanel" class="settings-panel">
+    <button onclick="cycleTextSize()">Text Size</button>
+    <button onclick="toggleLineSpacing()">Line Spacing</button>
+    <button onclick="toggleDarkMode()">Light / Dark Mode</button>
+    <button onclick="colourBlindMode1()">Colourblind Mode 1</button>
+    <button onclick="colourBlindMode2()">Colourblind Mode 2</button>
+</aside>
+
+<!-- NAV -->
+<nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="hardware.html">Upgrades</a>
+    <a href="repairs.html">Repairs</a>
+    <a href="repairs.html">Support</a>
+</nav>
+
+<!-- MAIN -->
+<main class="container">
+
+    <h2>Check Component Compatibility</h2>
+    <p>Select your current PC components to check upgrade compatibility.</p>
+
+    <!-- COMPONENT LIST -->
+    <div class="hardware-list">
+
+        <div class="row">
+            <span>CPU</span>
+            <select>
+                <option>Select CPU</option>
+                <option>Intel i5</option>
+                <option>AMD Ryzen 5</option>
+            </select>
+            <button onclick="showInfo('cpu')">i</button>
+            <div id="cpu" class="info">The CPU is the main processor of your computer.</div>
+        </div>
+
+        <div class="row">
+            <span>RAM</span>
+            <select>
+                <option>Select RAM</option>
+                <option>8GB DDR4</option>
+                <option>16GB DDR5</option>
+            </select>
+            <button onclick="showInfo('ram')">i</button>
+            <div id="ram" class="info">RAM affects how many tasks your system can handle.</div>
+        </div>
+
+        <div class="row">
+            <span>Graphics Card</span>
+            <select>
+                <option>Select GPU</option>
+                <option>RTX 3060</option>
+                <option>RX 6600</option>
+            </select>
+            <button onclick="showInfo('gpu')">i</button>
+            <div id="gpu" class="info">The GPU handles graphics and gaming performance.</div>
+        </div>
+
+        <div class="row">
+            <span>Storage</span>
+            <select>
+                <option>Select Storage</option>
+                <option>SSD 512GB</option>
+                <option>HDD 1TB</option>
+            </select>
+            <button onclick="showInfo('storage')">i</button>
+            <div id="storage" class="info">Storage determines how much data you can store.</div>
+        </div>
+
+        <div class="row">
+            <span>Motherboard</span>
+            <select>
+                <option>Select Motherboard</option>
+                <option>ATX Board</option>
+                <option>Micro ATX</option>
+            </select>
+            <button onclick="showInfo('mb')">i</button>
+            <div id="mb" class="info">The motherboard connects all components together.</div>
+        </div>
+
+        <div class="row">
+            <span>Power Supply</span>
+            <select>
+                <option>Select PSU</option>
+                <option>500W</option>
+                <option>750W</option>
+            </select>
+            <button onclick="showInfo('psu')">i</button>
+            <div id="psu" class="info">The PSU provides power to all components.</div>
+        </div>
+
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="output">
+        Compatible Upgrade Options will appear here.
+    </div>
+
+    <!-- PREBUILT -->
+    <h2>Pre-built PCs and Laptops</h2>
+
+    <div class="row">
+        <select>
+            <option>Select Device</option>
+            <option>ThinkPad</option>
+            <option>HP Pavilion</option>
+        </select>
+    </div>
+
+</main>
+
+<!-- AD SPACE -->
+<aside class="ad-space">
+</aside>
+
+<!-- SOCIAL -->
+<section class="social">
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <a href="https://trustpilot.com" target="_blank">Reviews</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    Contact Us: rescurerepairs@gmail.com | +44 xxxx xxxxxxx
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
