@@ -25,13 +25,7 @@ Page Three has been altered to have an additional calendar and time button for a
 Testing:
 
 <img width="1882" height="979" alt="image" src="https://github.com/user-attachments/assets/25dbc2ec-776c-4551-a116-c2edbae4fbf5" />
-running an accessability check on the site yilded no negative results resuslts
-
-
-
-
-
-A series of 10  tests i ran to make sure all the features work properly
+Running an accessability check on the site yilded no negative results resuslts. Here are an additional 10  tests i ran to make sure all the features work properly
 
 1 Navigation test (do all menu buttons lead to the pages they are supposed to )- yes, initially some pages did not route, fixed
 2 Link testing- All links direct to sites they are supposed to, no specific accounts
