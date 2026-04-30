@@ -15,14 +15,14 @@
     --border: #fff;
 }
 
-/* COLOURBLIND MODE 1 (blue/yellow friendly) */
+/* colourblind mode 1 (blue/yellow friendly) */
 .cb1 {
     --bg: #f7f7f7;
     --card: #e6f0ff;
     --text: #000;
 }
 
-/* COLOURBLIND MODE 2 (high contrast) */
+/* colourblind mode 2 (high contrast) */
 .cb2 {
     --bg: #000;
     --text: #ffff00;
@@ -37,7 +37,7 @@ body {
     font-family: Arial;
 }
 
-/* HEADER */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ body {
     border-bottom: 2px solid var(--border);
 }
 
-/* LOGO */
+
 .logo {
     background: green;
     color: white;
@@ -57,7 +57,7 @@ body {
     justify-content: center;
 }
 
-/* SETTINGS */
+
 .settings-panel {
     display: none;
     position: absolute;
@@ -73,7 +73,7 @@ body {
     margin: 5px 0;
 }
 
-/* NAV */
+/* Nav */
 .nav {
     display: flex;
     justify-content: center;
@@ -87,7 +87,7 @@ body {
     text-decoration: none;
 }
 
-/* BOXES 1 2 3 */
+/* boxes in page 1 */
 .quick-access {
     display: flex;
     gap: 10px;
@@ -104,7 +104,7 @@ body {
     color: var(--text);
 }
 
-/* SERVICES */
+
 .service-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -118,12 +118,12 @@ body {
     padding: 20px;
 }
 
-/* ABOUT + CONTACT */
+
 .about, .contact {
     padding: 20px;
 }
 
-/* SOCIAL */
+
 .social {
     display: flex;
     justify-content: center;
@@ -138,7 +138,7 @@ body {
     color: var(--text);
 }
 
-/* FOOTER */
+
 .footer {
     text-align: center;
     padding: 10px;
@@ -156,7 +156,7 @@ body {
     }
 }
 
-/* MAIN LAYOUT */
+
 .hardware-layout {
     display: grid;
     grid-template-columns: 1fr 250px; /* main + ad */
@@ -164,12 +164,12 @@ body {
     padding: 20px;
 }
 
-/* MAIN CONTENT */
+
 .hardware-main {
     width: 100%;
 }
 
-/* ROW FIX */
+
 .row {
     display: grid;
     grid-template-columns: 150px 1fr 40px;
@@ -178,13 +178,13 @@ body {
     margin-bottom: 15px;
 }
 
-/* PREVENT OVERFLOW */
+
 .row select {
     width: 100%;
     max-width: 500px;
 }
 
-/* INFO BOX */
+
 .info {
     grid-column: 2 / 4;
     display: none;
@@ -193,7 +193,7 @@ body {
     margin-top: 5px;
 }
 
-/* OUTPUT BOX */
+
 .output {
     border: 2px solid var(--border);
     padding: 10px;
@@ -201,20 +201,20 @@ body {
     max-width: 600px;
 }
 
-/* AD SPACE FIX */
+/* leaves empty space in page 2 */
 .ad-space {
     border: 2px solid var(--border);
     height: 500px;
     width: 100%;
 }
 
-/* STOP HEADER OVERLAP */
+/* prevents header from overlaping */
 .header {
     position: relative;
     z-index: 10;
 }
 
-/* RESPONSIVE FIX */
+/* responsive fix to smaller screens */
 @media (max-width: 900px) {
     .hardware-layout {
         grid-template-columns: 1fr;
