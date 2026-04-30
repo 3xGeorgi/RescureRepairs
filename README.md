@@ -4,7 +4,7 @@ Submission version
 
 User personas:
 
-1 s Name: Jay ; Frequent visitor. Background: Being a Youtuber, Jay works with video and audio software such as Adobe Premiere to create his videos. Since birth, having dyslexia has made it tricky for him to read words. Because of this, he prefers having 1-to-1 conversations with people which he does by livestreaming, calling his friends, and going out a lot. Story: As a frequent visitor, I want to find their mobile number quickly so I can talk about preinstalled software on my custom-built PC they made for me, so that I get real-time feedback and can solve problems and queries quicker. Tasks: Navigate to the general customer support page. Criteria: Given that Jay is dyslexic and prefers speaking than texting, needs to find the mobile number of our company when he needs PC support, then should add a mobile number at the footer of our page in a dyslexia-friendly font like sans-serif.
+1 Name: Jay ; Frequent visitor. Background: Being a Youtuber, Jay works with video and audio software such as Adobe Premiere to create his videos. Since birth, having dyslexia has made it tricky for him to read words. Because of this, he prefers having 1-to-1 conversations with people which he does by livestreaming, calling his friends, and going out a lot. Story: As a frequent visitor, I want to find their mobile number quickly so I can talk about preinstalled software on my custom-built PC they made for me, so that I get real-time feedback and can solve problems and queries quicker. Tasks: Navigate to the general customer support page. Criteria: Given that Jay is dyslexic and prefers speaking than texting, needs to find the mobile number of our company when he needs PC support, then should add a mobile number at the footer of our page in a dyslexia-friendly font like sans-serif.
 
 
 2 Name: Chad ; First-time customer. Background: Chad works as a graphics designer using tools like Photoshop (What Does a Graphic Designer Do? (And How to Become One) | Coursera). He is good at designing logos and adverts, but can get easily overwhelmed when having long, technical instructions to follow. He is a visual learner and prefers step-by-step instructions and likes working independently. Story: As a first-time customer, I want to quickly seek what upgrade options are available as my PC is running slower having used it for multiple years. I want to feel confident when choosing what to upgrade as I know they can be expensive. Tasks: Navigate to the PC parts picker page. Criteria: Given that Chad is a visual learner, our page should have a clear category tree for easy navigation. On the page, we can have text boxes to search for PC specification parts which are compatible with his current build, along with a part 
@@ -36,9 +36,10 @@ Running an accessability check on the site yilded no negative results resuslts. 
 7. Repairs accepts credemtials- Repairs does accept credentials
 8. Calendar and time notch on page 3 work - they do work, after some struggle , bugs ironed out
 9. No Lorem Ipsum- none
-10. Checked spelling - everything spelt correc
+10. Checked spelling - everything spelt correct
 
 
 
 
-Reflections on the design process
+Reflections on the design process:
+The most major part of this assingment for me was learning the basics of HTML5 and CSS to be able to do this, this site was difficult to put together because of the fact i put a lot of drop down menus and links to other parts of the site and external links. The additions that i made to the wireframes were limited, aditional annotations have been added to the pages as to make sure it was adjacent to the feedback i was given from my presentation. Alltogether the most important aprt of the design proccess was making sure that all of the websites functionalities were up to the standard of the user personas that i put together. As well as this, the other major thing that i was thinking about while making this site was to make sure everything is readable and legible on different screens, that is why i added a js script that changes the screen size on different sized screens. More over the other unique functionalities that i implemented in my site was the degree to which it surved the functionalities it was designed to serve.
