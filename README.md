@@ -36,9 +36,9 @@ Running an accessability check on the site yilded no negative results resuslts. 
 7 Repairs accepts credemtials- Repairs does accept credentials
 8 Calendar and time notch on page 3 work - they do work, after some struggle , bugs ironed out
 9 No Lorem Ipsum- none
-10 Checked spelling - everything spelt correct
+10 Checked spelling - everything spelt correc
 
 
 
 
-Testing: 
+Reflections on the design process
